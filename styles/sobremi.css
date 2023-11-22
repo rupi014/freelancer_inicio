@@ -1,0 +1,68 @@
+.hero {
+    background-attachment: fixed ;
+    background-image: url(../freelancer_inicio/pexels-olia-danilevich-4974914.jpg);
+}
+
+
+@media (min-width: 768px) {
+    .hero {
+        background-image: url(../freelancer_inicio/pexels-olia-danilevich-4974914.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position-y: -200px;
+        height: 300px;
+        position: relative;
+        margin-bottom: 2rem;
+    }
+    
+    .contenido-hero {
+        position: absolute;
+        background-color: rgb( 0 0 0 / 70%);
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .contenido-hero h2 {
+        color: var(--blanco);
+        text-transform: uppercase;
+    }
+    
+    #nombre-sobremi {
+        font-size: 4rem;
+    }
+    
+    .contenido-hero p {
+        color: var(--blanco);
+    }
+    
+    
+    .contenido-hero .ubicacion {
+        display: flex;
+        align-items: center;
+    }
+
+    .contenedor-sobremi {
+        max-width: 120rem;
+        height: 500px;
+        margin: 0 auto;
+    }
+    
+    .sombra {
+        -webkit-box-shadow: 0px 5px 15px 0px rgba(56,56,56,0.36);
+        -moz-box-shadow: 0px 5px 15px 0px rgba(56,56,56,0.36);
+        box-shadow: 0px 5px 15px 0px rgba(56,56,56,0.36);
+        background-color: var(--blanco);
+        padding: 2rem;
+        border-radius: 1rem;
+    
+    }
+
+    .descripcion-sobremi img {
+       margin-left: 400px;
+    }
+
+}
